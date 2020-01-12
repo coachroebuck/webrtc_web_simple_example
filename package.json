@@ -1,18 +1,47 @@
 {
-  "author": "Brian Mau",
-  "name": "webrtc-video-broadcast",
-  "version": "1.0.0",
-  "dependencies": {
-    "express": "^4.13.4",
-    "socket.io": "1.4.*"
+  "name": "websockets-example",
+  "description": "Websockets Example",
+  "version": "0.1.0",
+  "engines": {
+    "node": "6.2.0"
   },
-  "devDependencies": {
-    "@types/node": "^8.0.10",
-    "@types/socket.io-client": "^1.4.29",
-    "@types/webrtc": "0.0.21",
-    "eslint": "^4.2.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Coach Roebuck",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^2.7.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.13.4",
+    "express-react-views": "^0.11.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^1.2.1",
+    "fs": "^0.0.1-security",
+    "http-errors": "^1.7.3",
+    "js-cookie": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.0",
+    "simple-thumbnail": "^1.6.1",
+    "socket.io": "^2.3.0",
+    "url": "^0.11.0",
+    "util": "^0.12.1",
+    "ws": "^3.3.3"
   }
 }
